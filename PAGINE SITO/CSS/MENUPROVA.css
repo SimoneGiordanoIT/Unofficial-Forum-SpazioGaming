@@ -1,0 +1,446 @@
+<style>
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.superior_page{
+    background: #000000;
+}
+
+#head_box {
+    width: 960px;
+    background-image: center 70px no-repeat;
+}
+
+#head_box, .home_link{
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+/*dimensione delle box laterali per l'allineamento*/
+
+#head_box, #navBox{
+    margin: 0 auto;
+}
+
+/*gestione delle box laterali per l'allineamento con gestione delle tabelle*/
+.head_box_fix:after, .head_box_fix:before{
+    content: " ";
+    display: table;
+}
+
+/*gestione delle box laterali per l'allineamento con inserimento di elementi*/
+.head_box_fix:after{
+    clear:both;
+}
+
+.head_wrap{
+    width: 100%;
+    height: 150%;
+    position: relative;
+    display: block;
+    background: #000;
+}
+
+.home_link{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.navig{
+    width: 100%;
+    height: 150%;
+    position: relative;
+    display: block;
+    background: #000;
+}
+
+.nav_box{
+    width: 960px;
+    height: 150%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background: #000;
+}
+
+.navigation{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    width: 90%;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_fix:after, .nav_fix:before{
+    content: " ";
+    display: table;
+}
+
+.nav_fix:after{
+    clear:both;
+}
+
+/* contenuto sito */
+
+.menu_da_togliere button {
+    background-color: rgb(138, 16, 16); 
+    border: 1px solid rgb(43, 255, 0); 
+    color: white; /* testo bianco */
+    padding: 10px 24px; /* padding */
+    cursor: pointer; /* icona puntatore */
+    width: 100%; 
+    display: block; /* i bottoni si presentano uno sotto l'altro */
+  }
+  
+  .menu_da_togliere button :not(:last-child) {
+    border-bottom: none; /* evita i doppi bordi */
+  }
+  
+  /* background color sull'hover */
+  .menu_da_togliere button:hover {
+    background-color: #003cff;
+  }
+
+
+
+
+/*menu di sinistra*/
+
+.vertical_menu button {
+    background-color: rgb(73, 16, 138); 
+    border: 1px solid rgb(38, 21, 116); 
+    color: white; /* testo bianco */
+    padding: 10px 24px; /* padding */
+    cursor: pointer; /* icona puntatore */
+    width: 100%; 
+    display: block; /* i bottoni si presentano uno sotto l'altro */
+  }
+  
+  .vertical_menu button :not(:last-child) {
+    border-bottom: none; /* evita i doppi bordi */
+  }
+  
+  /* background color sull'hover */
+  .vertical_menu button:hover {
+    background-color: #7e017e;
+  }
+
+
+/*layout*/
+
+.contentwrapper
+    {
+    width: 100%;
+    height: 90%;
+    margin-top: 0%;
+    margin-left: 3%;
+    min-height: 700px;
+    max-height: 750px;
+    display: inline-block;
+    }
+
+.leftcolumnwidget
+    {
+    width: 23%;
+    min-height: 700px;
+    max-height: 750px;
+    left: 0px;
+    display:inline-block;
+    margin: 2px auto;
+    vertical-align: top;
+    margin-top: 20px;
+            }
+    
+.leftcolumnwidgettop
+{
+    width: 100%;
+    height: 60px;
+    float: left ;
+    display: block ;
+    overflow: hidden;
+    margin: 2px auto;
+    }
+
+
+
+.central-column {
+
+    width: 45%;
+    height: 100%;
+    min-height: 750px;
+    display:inline-block;
+    padding: 1%;
+    margin: 2px auto;
+    vertical-align: top;
+    margin-top: 1px;
+    } 
+
+.postscolumnwidgettop
+    {
+    border-radius: 8px 8px 8px 8px;
+    width: 100%;
+    height: 60%;
+    float: left ;
+    display: block ;
+    overflow: hidden;
+    background-color: #000000;
+    margin: 2px auto;
+    }   
+
+.postscolumnwidgetbody
+    {
+        background-color: rgb(0, 0, 0);
+        min-height: 700px;
+       
+    }
+
+    .rightcolumnwidget
+    {
+    vertical-align: top;
+    margin-top: 18px;
+    width: 18%;
+    min-height: 750px;
+    display:inline-block
+    }
+    .rightcolumnwidgettop
+    {
+    /*background: url("./IMMAGINI/creazionePostStelle.png");*/
+    width: 100%;
+    height: 45px;
+    float: left ;
+    display: block ;
+    overflow: hidden;
+    margin: 2px auto;
+    margin-top: -25px ;
+    } 
+    .rightcolumnwidgetbody
+    {
+        background-color: rgb(0, 0, 0);
+        min-height: 700px;
+        width: auto;
+        
+
+    }
+
+
+/* gestione contenuto post*/  
+.testo_Creapost{
+   
+    text-align: left;
+    font-family: Arial; 
+}
+/* disposizione a carte*/  
+.card{
+  background-color: #550baa;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px 8px 8px 8px;
+  font-family: Arial;
+}
+
+/* gestione contenuto post*/
+.attachment, .text, .textP, .comment-text, .textC{
+  background-color: rgb(230, 193, 247);
+  width: 90%;
+  padding: 5%;
+  overflow-y:scroll;  
+}
+
+/* gestione immagini al lato e del menu*/
+.creaIMG, .infoTueIMG{
+    border-radius: 8px 8px 8px 8px;
+    width: 100% ;
+    height: 60px ;
+    object-fit: cover;
+}
+
+/*titolo post*/
+.titolo{
+    color:#000000;
+}
+
+.menuIMG{
+    border-radius: 8px 8px 8px 8px;
+    width: 100% ;
+    height: 60px ;
+    object-fit: cover;
+
+}
+
+.infoIMG{
+    border-radius: 8px 8px 8px 8px;
+    width: 100% ;
+    height: 10% ;
+    object-fit: cover;
+}
+
+.rulesIMG{
+    border-radius: 8px 8px 8px 8px;
+    width: 100% ;
+    height: 60px ;
+    object-fit: cover;
+}
+
+.utentiBannati {
+    border-radius: 8px 8px 8px 8px;
+    width: 100% ;
+    height: 50px ;
+    object-fit: cover;
+}
+
+.promozioniDeputy{
+    border-radius: 8px 8px 8px 8px;
+    width: 100% ;
+    height: 40% ;
+    object-fit: cover;
+}
+
+ /* gestione contenuto riquadri a dx*/
+.desc{
+    text-align: left;
+}
+
+.link_post{
+    color: black;
+}
+
+/*immagine dei post popolari*/
+.popolareIMG{
+    width: 100% ;
+    height: 40% ;
+    object-fit: cover;
+}
+
+/*Gestione dei tasti mi piace, vai, elimina,segnala*/
+
+.btn-success {
+    background-color: rgb(230, 193, 247);
+    background-image: none;
+    color: rgb(2, 2, 2);
+    /*padding: 13px 38px;*/
+    padding: 2% 4%;
+    margin-top: 15px;
+    border-radius: 40px;
+    border: 1px solid #25a08d;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    margin-bottom: 21px;
+}
+
+/*tasti signup e cancel che si illuminano*/
+.btn-success:focus,
+.btn-success:hover,
+.btn-success.active,
+.btn-success.active:hover,
+.btn-success:active:hover,
+.btn-success:active:focus,
+.btn-success:active {
+background-color: #ba6cee;
+border-color: #25a08d;
+box-shadow: 0px 5px 35px -5px #25a08d;
+text-shadow:0 0 8px #fff;
+color: #FFF;
+outline:none;
+}
+
+/*valutazione con le stelle*/
+
+
+.box {
+    display: inline-block;
+    top: 70%;
+    left: 90%;
+    transform: translate(0%, 0%);
+  }
+  
+  .box select {
+    background-color: #5800fc;
+    color: rgb(243, 219, 1);
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .box::before {
+    content: "\f005";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
+
+  .commento-child{
+    
+    margin-left: 10%;
+    
+}
+
+.comment-child-child{
+    margin-left:30%;
+}
+
+.box, .btn-block {
+    margin-left: 80%;   
+}
+
+/* BARRA RICERCA*/
+
+input[type=text] {
+    width: 50%;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+  }
+  
+  /* quando la barra ha focus, cambia width a 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+a {
+    text-decoration: none; 
+    color:black;
+
+}
+
+.UtBannati{
+    color: #000000;
+    font-family: Comic;
+}
+
+</style>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="elenco_mex">
+   <xsd:complexType> 
+      <xsd:sequence>
+	 <xsd:element ref="mex" maxOccurs="unbounded" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="mex">
+   <xsd:complexType>
+      <xsd:sequence>
+         <xsd:element ref="ID_UT" />
+         <xsd:element ref="ID_MOD" />
+         <xsd:element ref="ID_POST" />
+         <xsd:element ref="testoMess" />
+         <xsd:element ref="flag_lett" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="ID_UT" type="xsd:int" />
+
+<xsd:element name="ID_MOD" type="xsd:int" />
+
+<xsd:element name="ID_POST" type="xsd:int" />
+
+<xsd:element name="testoMess" type="xsd:string"/>
+
+<xsd:element name="flag_lett" type="xsd:boolean"/>
+
+
+</xsd:schema>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elenco_preferiti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gestionePref.xsd"><preferiti><ID_UT>1</ID_UT></preferiti><preferiti><ID_UT>2</ID_UT><ID_Area>1</ID_Area></preferiti><preferiti><ID_UT>3</ID_UT></preferiti><preferiti><ID_UT>4</ID_UT><ID_Area>1</ID_Area></preferiti><preferiti><ID_UT>5</ID_UT></preferiti></elenco_preferiti>

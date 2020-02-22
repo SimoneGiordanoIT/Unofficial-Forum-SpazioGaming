@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<elenco_mex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gestioneMessaggiModeraPost.xsd">
+  <mex>
+    <ID_UT>4</ID_UT>
+    <ID_MOD>3</ID_MOD>
+    <ID_POST>1</ID_POST>
+    <testoMess>il testo del primo post non va bene</testoMess>
+    <flag_lett>0</flag_lett>
+  </mex>
+  <mex>
+    <ID_UT>4</ID_UT>
+    <ID_MOD>3</ID_MOD>
+    <ID_POST>2</ID_POST>
+    <testoMess>il testo del SECONDO post non va bene</testoMess>
+    <flag_lett>0</flag_lett>
+  </mex>
+  <mex>
+    <ID_UT>4</ID_UT>
+    <ID_MOD>2</ID_MOD>
+    <ID_POST>7</ID_POST>
+    <testoMess>NON VA BENE,CAMBIALO</testoMess>
+    <flag_lett>1</flag_lett>
+  </mex>
+</elenco_mex>

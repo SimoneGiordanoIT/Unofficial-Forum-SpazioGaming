@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aree_int xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AreeInteresse.xsd"><gioco><ID>1</ID><nome>League of Legends</nome><tag>LOL</tag><flag_attivo>1</flag_attivo></gioco><gioco><ID>2</ID><nome>Call Of Duty</nome><tag>COD</tag><flag_attivo>1</flag_attivo></gioco></aree_int>

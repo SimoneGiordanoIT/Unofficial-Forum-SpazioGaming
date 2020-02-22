@@ -1,0 +1,192 @@
+/*Nel file cosi come nei php si usano form class="login-form" sia per il signup sia per il login*/
+
+
+.radial-gradient {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+  
+    /*Se il gradient non funziona */
+    /*background: #000000;*/
+    /*linear gradient */
+    
+    background:
+      radial-gradient(
+       at center, #550baa, #000000
+      );
+  }
+
+ 
+
+  html {
+    height: 100%;
+    }
+    body {
+    font-family: 'Varela', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    min-height: 100%;
+    position: relative;
+    width:100%;
+    height:100%;
+    
+    }
+label {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    }
+
+body.login {
+    background: rgba(255, 255, 255, 1);
+    color:white;
+}
+        
+.relative {
+    position: relative;
+ }
+
+.login-container-wrapper {
+    max-width: 30%;
+    margin: 4% auto 5%;
+    padding: 3%;
+    box-sizing: border-box;
+    background: rgba(41, 3, 255, 0.603);
+    position: relative;
+    box-shadow: 0px 30px 60px -5px #0097fc;
+    background-size:cover;
+    border-radius: 8px 8px 8px 8px;
+    background-blend-mode:saturation;
+    opacity: 0.8;
+}
+
+.login-container-wrapper{
+font-size: 16px;
+letter-spacing: 1px;
+
+}
+
+.login input:focus + .fa{
+    color:#25a08d;
+    }
+
+.login-form .form-group {
+    margin-right: 0;
+    margin-left: 0;
+    }
+
+
+    
+.login input{
+    display: inline-block;
+}
+
+input.form-control.input-lg{
+    width:40%;
+}
+    
+.login-form .input-lg {
+    font-size: 16px;
+    height: 42px;
+    padding: 1% 5%;
+    border-radius: 0;
+}
+
+
+.login input[type="text"],
+.login input[type="password"],
+.login input:focus {
+        background-color: rgba(40, 52, 67, 0.75);
+        border: 0px solid #763c4c;
+        color: #eee;
+        border-left: 45px solid #0b0f15;
+        border-radius:40px;
+        margin: 5px;
+        
+}
+
+
+.login input:focus {
+    border-left: 45px solid #eee;
+    }
+    
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: rgba(40, 52, 67, 0.75)!important;
+    background-image: none;
+    color: rgb(0, 0, 0);
+    border-color: #FAFFBD;
+}
+    
+
+  
+/*sezione dei tasti signup e  cancel*/
+.btn-success {
+    background-color: #002770;
+    background-image: none;
+    color: white;
+    padding: 3% 5%;
+    margin-top:20px;
+    border-radius: 40px;
+    border: 1px solid #25a08d;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    margin-bottom: 21px;
+}
+
+/*tasti signup e cancel che si illuminano*/
+.btn-success:focus,
+.btn-success:hover,
+.btn-success.active,
+.btn-success.active:hover,
+.btn-success:active:hover,
+.btn-success:active:focus,
+.btn-success:active {
+background-color: #ba6cee;
+border-color: #25a08d;
+box-shadow: 0px 5px 35px -5px #25a08d;
+text-shadow:0 0 8px #fff;
+color: #FFF;
+outline:none;
+}
+
+
+input:focus, textarea:focus, select:focus {
+        outline: none;
+}
+
+textarea{
+    background-color: rgba(40, 52, 67, 0.75);
+    color:white;
+    font-family: Arial;
+    border-radius: 4px;
+    border: 2px solid #25a08d;
+    width: 90%; 
+}
+
+.box select {
+    background-color: rgba(40, 52, 67, 0.75);
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+ 

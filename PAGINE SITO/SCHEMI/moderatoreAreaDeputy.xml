@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<elenco_dep xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="moderatoreAreaDeputy.xsd">
+  <mod_dep>
+    <ID_MOD>2</ID_MOD>
+    <TAG_AREA>LOL</TAG_AREA>
+    <ID_DEP>3</ID_DEP>
+  </mod_dep>
+  
+</elenco_dep>

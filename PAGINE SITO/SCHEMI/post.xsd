@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="elenco_post">
+   <xsd:complexType> 
+      <xsd:sequence>
+	 <xsd:element ref="post" maxOccurs="unbounded" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="post">
+   <xsd:complexType>
+      <xsd:sequence>
+         <xsd:element ref="ID" />
+         <xsd:element ref="tag" />
+         <xsd:element ref="ID_Creat" />
+         <xsd:element ref="Data_creaz" />
+         <xsd:element ref="Titolo" />
+         <xsd:element ref="Testo" />
+         <xsd:element ref="Attachment" minOccurs="0" maxOccurs="1"/>
+         <xsd:element ref="visibile" />
+         <xsd:element ref="valutazionePost" minOccurs="0" maxOccurs="unbounded" />
+         <xsd:element ref="commento" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="ID" type="xsd:int" />
+
+<xsd:element name="tag" type="xsd:string" />
+
+<xsd:element name="ID_Creat" type="xsd:int" />
+
+<xsd:element name="Data_creaz" type="xsd:string" />
+
+<xsd:element name="Titolo" type="xsd:string" />
+
+<xsd:element name="Testo" type="xsd:string" />
+
+<xsd:element name="Attachment" type="xsd:anyURI" />
+
+<xsd:element name="visibile" type="xsd:boolean" />
+
+<xsd:element name="valutazionePost" type="valutazione" />
+
+<xsd:element name="commento" type="comment" />
+
+<xsd:complexType name="valutazione">
+  <xsd:sequence>
+    <xsd:element ref="ID_Votante" />
+    <xsd:element ref="flag_voto" />
+  </xsd:sequence>
+</xsd:complexType>
+
+<xsd:element name="ID_Votante" type="xsd:int" />
+<xsd:element name="flag_voto" type="xsd:boolean" />
+
+<xsd:complexType name="comment">
+  <xsd:sequence>
+    <xsd:element ref="ID_commento" />
+    <xsd:element ref="testo" />
+    <xsd:element ref="ID_commentatore" />
+    <xsd:element ref="tagC" maxOccurs="unbounded"/>
+    <xsd:element ref="ID_com_superiore" minOccurs="0" maxOccurs="1" />
+  </xsd:sequence>
+</xsd:complexType>
+
+<xsd:element name="ID_commento" type="xsd:int" />
+<xsd:element name="testo" type="xsd:string" />
+<xsd:element name="ID_commentatore" type="xsd:int" />
+<xsd:element name="tagC" type="xsd:string" />
+<xsd:element name="ID_com_superiore" type="xsd:int" />
+
+
+</xsd:schema>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="reputazioneC">
+   <xsd:complexType> 
+      <xsd:sequence>
+	 <xsd:element ref="linker" maxOccurs="unbounded" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="linker">
+   <xsd:complexType>
+      <xsd:sequence>
+         <xsd:element ref="ID_creatore" />
+         <xsd:element ref="ID_post" />
+         <xsd:element ref="ID_comm" />
+         <xsd:element ref="voto" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="ID_creatore" type="xsd:int" />
+
+<xsd:element name="ID_post" type="xsd:int" />
+
+<xsd:element name="ID_comm" type="xsd:int" />
+
+<xsd:element name="voto" type="vote" />
+
+<xsd:complexType name="vote">
+  <xsd:sequence>
+    <xsd:element name="votoDato" type="xsd:int" />
+    <xsd:element name="ID_votante" type="xsd:int"/>
+  </xsd:sequence>
+</xsd:complexType>
+
+<xsd:element name="votoDato" type="xsd:int" />
+<xsd:element name="ID_votante" type="xsd:int" />
+
+
+
+</xsd:schema>

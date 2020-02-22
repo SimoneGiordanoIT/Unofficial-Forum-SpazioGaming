@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="elenco_preferiti">
+   <xsd:complexType> 
+      <xsd:sequence>
+	 <xsd:element ref="preferiti" maxOccurs="unbounded" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="preferiti">
+   <xsd:complexType>
+      <xsd:sequence>
+         <xsd:element ref="ID_UT" />
+         <xsd:element ref="ID_Area" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="ID_UT" type="xsd:int" />
+
+<xsd:element name="ID_Area" type="xsd:int" />
+
+</xsd:schema>

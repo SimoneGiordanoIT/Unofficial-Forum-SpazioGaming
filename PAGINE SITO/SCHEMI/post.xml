@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<elenco_post xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="post.xsd">
+  <post>
+    <ID>1</ID>
+    <tag>LOL</tag>
+    <ID_Creat>1</ID_Creat>
+    <Data_creaz>14/06/19</Data_creaz>
+    <Titolo>MMR Sbagliato</Titolo>
+    <Testo>MMR SBAGLIATO 2</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+    <valutazionePost>
+      <ID_Votante>4</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+    <valutazionePost>
+      <ID_Votante>2</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+    <valutazionePost>
+      <ID_Votante>1</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+    <commento>
+      <ID_commento>1</ID_commento>
+      <testo>Madre1</testo>
+      <ID_commentatore>2</ID_commentatore>
+      <tagC>LOL</tagC>
+    </commento>
+    <commento>
+      <ID_commento>2</ID_commento>
+      <testo>RISPOSTA A MADRE 1</testo>
+      <ID_commentatore>3</ID_commentatore>
+      <tagC>LOL</tagC>
+      <ID_com_superiore>1</ID_com_superiore>
+    </commento>
+    <commento>
+      <ID_commento>3</ID_commento>
+      <testo>RISPOSTA A RISPOSTA A MADRE 1 </testo>
+      <ID_commentatore>3</ID_commentatore>
+      <tagC>LOL</tagC>
+      <tagC>COD</tagC>
+      <ID_com_superiore>2</ID_com_superiore>
+    </commento>
+    <commento>
+      <ID_commento>4</ID_commento>
+      <testo>Madre4</testo>
+      <ID_commentatore>2</ID_commentatore>
+      <tagC>LOL</tagC>
+    </commento>
+    <commento>
+      <ID_commento>5</ID_commento>
+      <testo>RISPOSTA A RISPOSTA A RISPOSTA A MADRE 1 </testo>
+      <ID_commentatore>3</ID_commentatore>
+      <tagC>LOL</tagC>
+      <tagC>COD</tagC>
+      <ID_com_superiore>3</ID_com_superiore>
+    </commento>
+    <commento>
+      <ID_commento>6</ID_commento>
+      <testo>Risposta a Madre4</testo>
+      <ID_commentatore>2</ID_commentatore>
+      <tagC>LOL</tagC>
+      <tagC>COD</tagC>
+      <ID_com_superiore>4</ID_com_superiore>
+    </commento>
+  </post>
+  <post>
+    <ID>2</ID>
+    <tag>COD</tag>
+    <ID_Creat>3</ID_Creat>
+    <Data_creaz>23/06/19</Data_creaz>
+    <Titolo>titoloP</Titolo>
+    <Testo>PROVAAAAAA</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+    <valutazionePost>
+      <ID_Votante>1</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+  </post>
+  <post>
+    <ID>3</ID>
+    <tag>COD</tag>
+    <ID_Creat>4</ID_Creat>
+    <Data_creaz>21/06/19</Data_creaz>
+    <Titolo>tPROVA</Titolo>
+    <Testo>TESTO</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+    <valutazionePost>
+      <ID_Votante>2</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+    <valutazionePost>
+      <ID_Votante>4</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+    <valutazionePost>
+      <ID_Votante>1</ID_Votante>
+      <flag_voto>1</flag_voto>
+    </valutazionePost>
+    <commento>
+      <ID_commento>1</ID_commento>
+      <testo>commento a id 3</testo>
+      <ID_commentatore>3</ID_commentatore>
+      <tagC>LOL</tagC>
+    </commento>
+    <commento>
+      <ID_commento>2</ID_commento>
+      <testo>Risposta a commento id 3</testo>
+      <ID_commentatore>1</ID_commentatore>
+      <tagC>COD</tagC>
+      <ID_com_superiore>1</ID_com_superiore>
+    </commento>
+  </post>
+  <post>
+    <ID>4</ID>
+    <tag>LOL</tag>
+    <ID_Creat>2</ID_Creat>
+    <Data_creaz>03/07/19</Data_creaz>
+    <Titolo>POST DEL MODERATORE</Titolo>
+    <Testo>TESTO DEL POST DEL MODERATORE</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+  </post>
+  <post>
+    <ID>5</ID>
+    <tag>LOL</tag>
+    <ID_Creat>4</ID_Creat>
+    <Data_creaz>08/07/19</Data_creaz>
+    <Titolo>Post Ultimo</Titolo>
+    <Testo>Testo random</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+    <valutazionePost>
+      <ID_Votante>3</ID_Votante>
+      <flag_voto>1</flag_voto>
+    </valutazionePost>
+  </post>
+  <post>
+    <ID>6</ID>
+    <tag>COD</tag>
+    <ID_Creat>5</ID_Creat>
+    <Data_creaz>10/07/19</Data_creaz>
+    <Titolo>POST creato da MOD COD</Titolo>
+    <Testo>Un post creato da MOD COD</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+  </post>
+  <post>
+    <ID>7</ID>
+    <tag>LOL</tag>
+    <ID_Creat>4</ID_Creat>
+    <Data_creaz>10/07/19</Data_creaz>
+    <Titolo>Ma quanto é bello il maggiore?</Titolo>
+    <Testo>IL MAGGIORE</Testo>
+    <Attachment>LOL7</Attachment>
+    <visibile>1</visibile>
+    <valutazionePost>
+      <ID_Votante>4</ID_Votante>
+      <flag_voto>0</flag_voto>
+    </valutazionePost>
+    <commento>
+      <ID_commento>1</ID_commento>
+      <testo>bello bello&#13;</testo>
+      <ID_commentatore>3</ID_commentatore>
+      <tagC>LOL</tagC>
+    </commento>
+  </post>
+  <post>
+    <ID>10</ID>
+    <tag>LOL</tag>
+    <ID_Creat>3</ID_Creat>
+    <Data_creaz>15/07/19</Data_creaz>
+    <Titolo>POST DI DEPUTY</Titolo>
+    <Testo>il deputy lol</Testo>
+    <Attachment>0</Attachment>
+    <visibile>1</visibile>
+  </post>
+</elenco_post>
